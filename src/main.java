@@ -19,8 +19,7 @@ public class main {
             System.out.println("Nem mérleg");
         }
     }
-
-
+    
     public static void greet(String name) {
         System.out.println(name);
     }
