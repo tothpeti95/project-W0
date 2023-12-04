@@ -5,7 +5,7 @@ public class main {
         count(28);
         future(10);
         greet("Fogas Marci");
-        cheer(6);
+        cheer("Greetings");
     }
 
     public static void count(int age){
@@ -26,7 +26,6 @@ public class main {
     }
 
     public static void cheer(String size){
-        size = "java";
         System.out.println(size);
     }
 }
