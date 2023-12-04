@@ -4,6 +4,8 @@ public class main {
     public static void main(String[] args) {
         count(28);
         future(10);
+        greet("Fogas Marci");
+
     }
 
     public static void count(int age){
@@ -16,5 +18,9 @@ public class main {
         }else {
             System.out.println("Nem mérleg");
         }
+    }
+
+    public static void greet(String name){
+        System.out.println(name);
     }
 }
