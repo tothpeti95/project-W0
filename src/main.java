@@ -5,7 +5,7 @@ public class main {
         count(28);
         future(10);
         greet("Fogas Marci");
-        cheer(6);
+        cheer("madzsar");
     }
 
     public static void count(int age){
@@ -25,7 +25,7 @@ public class main {
         System.out.println(name);
     }
 
-    public static void cheer(int size){
-        System.out.println(size);
+    public static void cheer(String language){
+        System.out.println(language);
     }
 }
