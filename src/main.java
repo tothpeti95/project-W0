@@ -2,14 +2,14 @@ package src;
 
 public class main {
     public static void main(String[] args) {
-        count(5);
+        count(5, 6);
         future(10);
         greet("Fogas Marci");
         cheer("madzsar");
     }
 
-    public static void count(int number){
-        System.out.println(number);
+    public static void count(int number1, int number2){
+        System.out.println(number1 + number2);
     }
 
     public static void future(int month){
