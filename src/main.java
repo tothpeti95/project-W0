@@ -12,12 +12,9 @@ public class main {
         System.out.println(number);
     }
 
-    public static void future(int month){
-        if(month == 10){
-            System.out.println("Mérleg");
-        }else {
-            System.out.println("Fém ló bre");
-        }
+
+    public static void future(int randomNumber, String word){
+        System.out.println(randomNumber + " " + word);
     }
     
     public static void greet(String name) {
@@ -25,7 +22,7 @@ public class main {
     }
 
     public static void cheer(String language, String camel){
-        System.out.println(language);
-        System.out.println(camel);
+        System.out.println("Cheer for the " + language);
+        System.out.println("Cheer for the " + camel);
     }
 }
