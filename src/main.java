@@ -12,12 +12,8 @@ public class main {
         System.out.println(number);
     }
 
-    public static void future(int month){
-        if(month == 10){
-            System.out.println("Mérleg");
-        }else {
-            System.out.println("Fém ló");
-        }
+    public static void future(int randomNumber, String word){
+        System.out.println(randomNumber + " " + word);
     }
     
     public static void greet(String name) {
