@@ -21,6 +21,6 @@ public class main {
     }
 
     public static void cheer(String language){
-        System.out.println(language);
+        System.out.println("Cheer for the " + language);
     }
 }
