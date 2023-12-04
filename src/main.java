@@ -12,6 +12,7 @@ public class main {
         System.out.println(number);
     }
 
+
     public static void future(int randomNumber, String word){
         System.out.println(randomNumber + " " + word);
     }
