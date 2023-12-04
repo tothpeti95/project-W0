@@ -4,7 +4,7 @@ public class main {
     public static void main(String[] args) {
         count(5);
         future(10);
-        greet("Fogas Marci");
+        greet("Marci", "hello");
         cheer("madzsar");
     }
 
@@ -20,8 +20,8 @@ public class main {
         }
     }
     
-    public static void greet(String name) {
-        System.out.println("Greetings!");
+    public static void greet(String a, String b) {
+        System.out.println(a + " " + b);
     }
 
     public static void cheer(String language){
