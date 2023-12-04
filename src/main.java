@@ -5,7 +5,7 @@ public class main {
         count(5);
         future(10);
         greet("Fogas Marci");
-        cheer(6);
+        cheer("Greetings");
     }
 
     public static void count(int number){
@@ -16,7 +16,7 @@ public class main {
         if(month == 10){
             System.out.println("Mérleg");
         }else {
-            System.out.println("Nem mérleg");
+            System.out.println("Fém ló");
         }
     }
 
@@ -25,7 +25,7 @@ public class main {
         System.out.println("Greetings!");
     }
 
-    public static void cheer(int size){
+    public static void cheer(String size){
         System.out.println(size);
     }
 }
