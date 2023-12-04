@@ -5,7 +5,7 @@ public class main {
         count(5);
         future(10);
         greet("Fogas Marci");
-        cheer("madzsar");
+        cheer("damn","it");
     }
 
     public static void count(int number){
@@ -24,7 +24,8 @@ public class main {
         System.out.println("Greetings!");
     }
 
-    public static void cheer(String language){
+    public static void cheer(String language, String camel){
         System.out.println(language);
+        System.out.println(camel);
     }
 }
