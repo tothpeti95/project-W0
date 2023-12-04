@@ -7,7 +7,7 @@ public class DClass {
 
     public static void future(int month){
         if(month == 10){
-            System.out.println("Mérleg");
+            System.out.println("Mérle   g");
         }
     }
 }
