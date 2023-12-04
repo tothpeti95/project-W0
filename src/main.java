@@ -16,7 +16,7 @@ public class main {
         if(month == 10){
             System.out.println("Mérleg");
         }else {
-            System.out.println("Nem mérleg");
+            System.out.println("Fém ló");
         }
     }
 
