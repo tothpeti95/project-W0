@@ -25,7 +25,8 @@ public class main {
         System.out.println(name);
     }
 
-    public static void cheer(int size){
+    public static void cheer(String size){
+        size = "java";
         System.out.println(size);
     }
 }
