@@ -2,10 +2,12 @@ public class DClass {
 
     public static void main(String[] args) {
 
-        future();
+        future(10);
     }
 
-    public static void future(){
-        System.out.println("Mérleg");
+    public static void future(int month){
+        if(month == 10){
+            System.out.println("Mérleg");
+        }
     }
 }
