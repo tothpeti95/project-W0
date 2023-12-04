@@ -21,7 +21,7 @@ public class main {
     }
     
     public static void greet(String name) {
-        System.out.println(name);
+        System.out.println("Greetings!");
     }
 
     public static void cheer(String language){
